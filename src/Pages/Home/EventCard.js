@@ -11,7 +11,7 @@ function EventCard({itm}) {
         <div className='h-full '>
             <Card sx={{height:'100%'}} className='relative group'>
 
-                <div className='hidden transform group-hover:translate-y-0 transition-transform linear duration-100 delay-200  group-hover:flex items-center justify-center absolute top-0 bg-DarkBlue bg-opacity-70 h-full w-full'>
+                <div className='hidden h-full w-full group-hover:flex items-center justify-center absolute top-0 bg-DarkBlue bg-opacity-70 '>
                     <button onClick={()=>{navigate('/eventDetails')}} className='bg-purple px-3 py-1.5 text-white'>book a ticket</button>
                 </div>
 
