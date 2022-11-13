@@ -6,8 +6,8 @@ function Section4(props) {
     return (
         <div className='relative -top-20 '>
             <Grid container>
-                <Grid xs={2}></Grid>
-                <Grid item xs={8}>
+                <Grid xs={1} md={2}></Grid>
+                <Grid item xs={9} md={8}>
                     <div className='w-full p-3 bg-white text-white shadow-md'>
                         <div className='relative'>
                             <img className='w-full h-44' alt='img1' src='/Assets/Images/section4img1.png'/>
@@ -34,7 +34,7 @@ function Section4(props) {
                         
                     </div>
                 </Grid>
-                <Grid xs={2}></Grid>
+                <Grid xs={1} md={2}></Grid>
             </Grid>           
         </div>
     );

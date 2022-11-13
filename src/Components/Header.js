@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 function Header({ ContainerClass = '' }) {
     return (
         <div>
-            <div className='md:hidden bg-DarkBlue px-16 py-4'>
+            <div className='md:hidden bg-DarkBlue px-5 md:px-16 py-4 '>
                 <MenuIcon sx={{ color: 'white', fontSize:30 }}/>
             </div>
 
