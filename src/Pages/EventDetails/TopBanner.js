@@ -35,7 +35,7 @@ function TopBanner(props) {
                     </div>
                     <div className=''>
                         <Carousel
-                        swipeable={false}
+                        swipeable={true}
                         draggable={false}
                         showDots={false}
                         responsive={responsive}
@@ -47,7 +47,7 @@ function TopBanner(props) {
                         customTransition="all .5"
                         transitionDuration={500}
                         containerClass="carousel-container"
-                        // removeArrowOnDeviceType={["tablet", "mobile"]}
+                        removeArrowOnDeviceType={["tablet", "mobile"]}
                         // deviceType={this.props.deviceType}
                         dotListClass="custom-dot-list-style"
                         itemClass="px-2 lg:px-10"

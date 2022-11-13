@@ -45,7 +45,7 @@ function Section3(props) {
                 {/* events */}
                 <div className='my-20 md:pl-16 pl-5 my-own-custom-container'>
                     <Carousel
-                    swipeable={false}
+                    swipeable={true}
                     draggable={false}
                     showDots={false}
                     responsive={responsive}
@@ -56,7 +56,7 @@ function Section3(props) {
                     customTransition="all .5"
                     transitionDuration={500}
                     containerClass="carousel-container"
-                    // removeArrowOnDeviceType={["tablet", "mobile"]}
+                    removeArrowOnDeviceType={["tablet", "mobile"]}
                     dotListClass="custom-dot-list-style"
                     itemClass="px-3"
                     partialVisible={true}
