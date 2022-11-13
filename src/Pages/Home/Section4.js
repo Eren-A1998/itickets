@@ -7,7 +7,7 @@ function Section4(props) {
         <div className='relative -top-20 '>
             <Grid container>
                 <Grid xs={1} md={2}></Grid>
-                <Grid item xs={9} md={8}>
+                <Grid item xs={10} md={8}>
                     <div className='w-full p-3 bg-white text-white shadow-md'>
                         <div className='relative'>
                             <img className='w-full h-44' alt='img1' src='/Assets/Images/section4img1.png'/>
