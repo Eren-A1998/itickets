@@ -9,7 +9,7 @@ function MiddleSection(props) {
             <Grid container columnSpacing={{ xs: 1, sm: 2, md: 8 }}>
                 <Grid item sm={8}>
                     <div className='p-3 bg-white mb-5 md:mb-0'>
-                        <img className='w-full mb-2' alt='banner' src='/Assets/Images/pg2img2.png'/>
+                        <img loading='lazy' className='w-full mb-2' alt='banner' src='/Assets/Images/pg2img2.png'/>
 
                         <div>
                             <p className='text-DarkBlue font-bold mb-3'>DESCRIPTION</p>
@@ -30,7 +30,7 @@ function MiddleSection(props) {
 
                             <BorderLine className='my-5'/>
                             <p className='text-DarkBlue font-bold mb-3'>PROMO VIDEO</p>
-                            <img className='w-full mb-2' alt='banner' src='/Assets/Images/pg2img2.png'/>
+                            <img loading='lazy' className='w-full mb-2' alt='banner' src='/Assets/Images/pg2img2.png'/>
                         </div>
                     </div>
                 </Grid>
@@ -59,7 +59,7 @@ function MiddleSection(props) {
 
                         <div className='bg-white p-3'>
                             <p className='text-DarkBlue font-bold mb-3'>LOCATION</p>
-                            <img className='w-full' alt='map' src='/Assets/Images/map.png'/>
+                            <img loading='lazy' className='w-full' alt='map' src='/Assets/Images/map.png'/>
                         </div>
                     </div>
                 </Grid>

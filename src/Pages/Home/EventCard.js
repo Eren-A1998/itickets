@@ -20,6 +20,7 @@ function EventCard({itm}) {
                     alt="green iguana"
                     height="100%"
                     image={itm.img}
+                    loading='lazy'
                 />
                 <CardContent>                    
                     <div className='flex gap-x-2 py-2 px-3'>

@@ -5,6 +5,7 @@ import Section1 from './MiddleSection';
 import TopBanner from './TopBanner';
 
 function EventDetails(props) {
+
     return (
         <div>
             <Header/>

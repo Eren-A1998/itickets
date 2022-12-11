@@ -25,7 +25,7 @@ function TopBanner(props) {
       };
     return (
         <div className='relative' style={{minHeight:'10rem'}}>
-            <img alt='banner' style={{minHeight:'10rem'}} className='h-full w-full' src='/Assets/Images/SecondpgPanner.png'/>
+            <img loading='lazy' alt='banner' style={{minHeight:'10rem'}} className='h-full w-full' src='/Assets/Images/SecondpgPanner.png'/>
 
             <div className='flex items-end absolute top-0 w-full h-full bg-DarkBlue bg-opacity-70'>
                 <div className='grid grid-cols-2 gap-x-3 items-end text-white px-5 md:px-16 py-2 md:py-10'>
@@ -58,7 +58,7 @@ function TopBanner(props) {
                         >
                             {Data.OtherEvents.map(i=>{
                                 return(
-                                    <img className='w-full h-full px-2' src={i.img} alt={i.name}/>
+                                    <img loading='lazy' className='w-full h-full px-2' src={i.img} alt={i.name}/>
                                 )
                             })}
                         </Carousel>

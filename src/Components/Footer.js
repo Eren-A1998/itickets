@@ -53,7 +53,7 @@ function Footer(props) {
                 </Grid>
                 <Grid item  xs={5} md={4}>
                     <div className='justify-center my-3'>
-                        <p className='mb-3 text-white'>Join our newsletter</p>
+                        <p className='mb-3 text-white'>JOIN OUR NEWSLETTER</p>
 
                         <div className=' flex justify-between items-center bg-DarkBlue border border-DarkerGrey py-1.5 px-2 mb-3'>
                             <input className='bg-DarkBlue w-full outline-none' type='text' placeholder='Enter your email'/>
