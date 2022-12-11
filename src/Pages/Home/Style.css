@@ -1,0 +1,33 @@
+.MuiTabs-flexContainer{
+    
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    /* font-size: 12px !important; */
+    color: #B6B9D4 !important;
+    /* column-gap: 18px; */
+    /* padding-block: .5rem !important;
+    padding-inline: 1rem !important; */
+    min-height: auto !important;
+    min-width: auto !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #191A23 !important;
+}
+
+.css-1aquho2-MuiTabs-indicator{
+    height: 3px !important;
+    background-color: #563E91  !important;
+}
+
+.MuiTabs-scrollButtons.Mui-disabled {
+    opacity: 0.3;
+  }
+
+
+  .gradText{
+    background: linear-gradient(to right, #FF0BA8 0%, #34CEFB 20%,#F08B41 35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
